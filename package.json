@@ -1,0 +1,26 @@
+{
+  "name": "mena-task",
+  "version": "1.0.0",
+  "description": "REST API for news",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "mocha server/**/*.test.js",
+    "test-watch": "nodemon --exec 'npm test'"
+  },
+  "author": "Ahmed Salem",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongodb": "^3.1.1",
+    "mongoose": "^5.2.3",
+    "underscore": "^1.9.1"
+  },
+  "devDependencies": {
+    "expect": "^23.4.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.2",
+    "supertest": "^3.1.0"
+  }
+}
